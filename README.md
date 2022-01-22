@@ -1,173 +1,173 @@
 <p align="center"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F518%2F518713.png&f=1&nofb=1"...></p>
 <h1 align="center">
-PS4 Linux Documentation
+Documentación de Linux en PS4
 </h1>
 <h2 align="center">
-A complete documentation for Linux on the PlayStation 4
+Documentación completa de Linux en PS4
 </h2>
 
 ------
 
-# What you need.
+# Necesario.
 
-## Files.
+## Archivos.
 
 ### Kernel.
 
 | PS4       | Kernel     |
 |--------------|-----------|
-| Aeolia | [**4.14.93** (Most Stable - HDD Support - By Psxita)](https://mega.nz/file/EJhBzTIQ#rpbOcpIpulojUxRUiZjLQ7RqS6tlNc6JmcCrgSxyG-g) [**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageAeolia) [**5.15.12** (ALPHA - NO STABLE - Vulkan support - No HDD Support - by codedwrench)](https://mega.nz/file/0wgETIxI#2nzITm4YokEQXAmm5_lHcPXKotlr3Tj1qbHutKS9BqA)|
-| Belize | [**4.14.93** (Most Stable - HDD Support - By tihmstar)](https://github.com/Nazky/ps4-linux/releases/download/4.19.93-belize/bzImage) [**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImage) [**5.15.12** (ALPHA - NO STABLE - Vulkan support - No HDD Support - by codedwrench))](https://mega.nz/file/0wgETIxI#2nzITm4YokEQXAmm5_lHcPXKotlr3Tj1qbHutKS9BqA) |
-| Baikal | [**4.14.93** (Most Stable - No HDD Support - By Psxita)](https://mega.nz/file/4FhBjbaS#zgy2TFTPN1fdWLyLZaJJBfIv2cZQOExdXvfYRVqIHNU) [**5.3.18** (BETA - Vulkan support - No HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageBaikal) [**5.15.12** (ALPHA - NO STABLE - Vulkan support - No HDD Support - by codedwrench)](https://mega.nz/file/Z1BywBxC#5HDoTE82zcaYdaCxlbuoNNzM4WJhdANriM0I4HEtmgs)  |
+| Aeolia | [**4.14.93** (El más estable - Permite grabarse en el disco duro interno - Creado por Psxita)](https://mega.nz/file/EJhBzTIQ#rpbOcpIpulojUxRUiZjLQ7RqS6tlNc6JmcCrgSxyG-g) [**5.3.18** (BETA - Soporte de Vulkan - Permite grabarse en el disco duro interno - Creado por Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageAeolia) [**5.15.12** (ALFA - NO ES ESTABLE - Soporte de Vulkan- NO permite grabarse en el disco duro interno - Creado por codedwrench)](https://mega.nz/file/0wgETIxI#2nzITm4YokEQXAmm5_lHcPXKotlr3Tj1qbHutKS9BqA)|
+| Belize | [**4.14.93** (El más estable - Permite grabarse en el disco duro interno - Creado por tihmstar)](https://github.com/Nazky/ps4-linux/releases/download/4.19.93-belize/bzImage) [**5.3.18** (BETA - Soporte de Vulkan - Permite grabarse en el disco duro interno - Creado por Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImage) [**5.15.12** (ALFA - NO ES ESTABLE - Soporte de Vulkan - NO permite grabarse en el disco duro interno - Creado por codedwrench))](https://mega.nz/file/0wgETIxI#2nzITm4YokEQXAmm5_lHcPXKotlr3Tj1qbHutKS9BqA) |
+| Baikal | [**4.14.93** (El más estable - NO permite grabarse en el disco duro interno - Creado por Psxita)](https://mega.nz/file/4FhBjbaS#zgy2TFTPN1fdWLyLZaJJBfIv2cZQOExdXvfYRVqIHNU) [**5.3.18** (BETA - Soporte de Vulkan - NO permite grabarse en el disco duro interno - Creado por Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageBaikal) [**5.15.12** (ALPHA - NO ES ESTABLE - Soporte de Vulkan - NO permite grabarse en el disco duro interno - Creado por codedwrench)](https://mega.nz/file/Z1BywBxC#5HDoTE82zcaYdaCxlbuoNNzM4WJhdANriM0I4HEtmgs)  |
 
-Aeolia, Belize and Baikal are based on the you'r PS4 model take a look [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) (thanks to [@Plattntektonik](https://twitter.com/Plattntektonik))
+Aeolia, Belize y Baikal son modelos de PS4, para saber cuál es la tuya mira [aquí](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) (gracias a [@Plattntektonik](https://twitter.com/Plattntektonik))
 
 ### Initramfs.cpio.gz.
 
-| Author       | Link     |
+| Autor        | Enlace    |
 |--------------|-----------|
 | [Psxita](https://www.psxita.it)  | [**MEGA**](https://mega.nz/file/IUBDiQKY#7WK2zFkUQbqJ02b9LTSAGug3NiL_8XPhprLcqVcfXxQ)
 | [Hippie68](https://github.com/hippie68) | [**GitHub** ](https://github.com/hippie68/psxitarch-how-to/releases/tag/v1.00)
 | [Nazky](https://twitter.com/NazkyYT) | [**MEGA**](https://mega.nz/file/E0wW3a6Y#IE9fvrjZ22Q2mJ6kM1uQaNctwj1-we4cV7xGqPBVV64) |
 
-## Linux Distrubution.
+## Distribuciones de Linux.
 
-### Prefab.
+### Creadas por otros (no están todas, sobre todo en el canal de ITMania tenéis MUCHÍSIMAS):
 
-| Author       | OS     |
+| Autor        | SO        |
 |--------------|-----------|
 | [Psxita](https://www.psxita.it) | [**Psxitarch**](https://www.psxita.it/distro/psxitarch.tar.xz)|
 | [Mircoho](https://github.com/ps4gentoo)| [**Gentoo**](https://drive.google.com/uc?id=1o5zYErfHAeZnOR1beeN4syeuKW77VDjA&export=download) |
-| [ItMania](https://www.youtube.com/channel/UCkVRqtCIS3Xj-E1HY4j9_EA)  | [**Fedora 32 Tron Edition**](https://drive.google.com/file/d/1bwTtP8mzlAp_mDbS1EnaMfpWrZ7gC4HV/view)
+| [ItMania](https://www.youtube.com/channel/UCkVRqtCIS3Xj-E1HY4j9_EA)  | [**Fedora 32 edición Tron**](https://drive.google.com/file/d/1bwTtP8mzlAp_mDbS1EnaMfpWrZ7gC4HV/view)
 | [Modded Warfare](https://www.youtube.com/channel/UCm9COMxXKm05BQWNv-IpyPg) | [**Fedora 32** ](https://anonfiles.com/Tdi5B458x6/PS4_Fedora32_MW_Itm.tar_xz)
 | [Nazky](https://twitter.com/NazkyYT) | [**CuteFish OS**](https://mega.nz/file/lhhFCAzK#IMCOCXHihX49zjOr6_tWVXeRZehI89o4HNTUASKLsJE) |
 
-### How to update Psxitarch ?
+### ¿Cómo actualizo Psxitarch?
 
-You can find a complete tuto [here](https://github.com/hippie68/psxitarch-how-to).
+Tienes un tutorial completo [aquí](https://github.com/hippie68/psxitarch-how-to).
 
-### How to update Fedora ?
+### ¿Cómo actualizo Fedora?
 
-You can find a complete tuto [here](https://youtu.be/WgukYE-2vx4?t=1029).
+Tienes un tutorial completo [aquí](https://youtu.be/WgukYE-2vx4?t=1029).
 
-### How to update CuteFish OS ?
+### ¿Cómo actualizo CuteFish OS?
 
-##### Using the terminal
+##### Usando la terminal
 
 ```sudo pacman -Syyu```
 
-It's update :D (you maybe have to restart the PS4).
+Y actualizado :D (puede que tengas que reiniciar tu PS4).
 
-##### Using Pamac
+##### Usando Pamac
 
-- Open the store (Add/remove software) app.
-- Go to "Update".
-- Click on "Apply".
-- Wait...
-- It's update :D (you maybe have to restart the PS4).
+- Abre la aplicación de la tienda (Añadir/quitar software).
+- Ve a "Actualizar".
+- Pulsa en "Aplicar".
+- Espera...
+- Y actualizado :D (puede que tengas que reiniciar tu PS4).
 
-## How to make my own OS ?
+## ¿Cómo me creo mi propio Sistema operativo?
 
-What you need :
+Lo que necesitas:
 
-- A compatible OS.
-- A vm (virtual box, VMware, qemu, ...) or a PC/Laptop.
-- The PS4 drivers [here](https://github.com/Hakkuraifu/PS4Linux-ArchDrivers).
-- A brain :p.
+- Un SO (sistema operativo) compatible.
+- Una máquina virtual (virtual box, VMware, qemu, ...) o un PC/Portátil dedicado.
+- Los drivers de PS4 [aquí](https://github.com/Hakkuraifu/PS4Linux-ArchDrivers).
+- Cerebro :p.
 
-#### 1) The OS.
+#### 1) El SO.
 
-You need a compatible OS, theoriclly all linux distrubution can be run on the PS4 if you have the drivers, since we only have the drivers for arch you need a arch based distro, i recommend Manjaro but you can try any others.
+Necesitas un SO compatible, teóricamente todas las distribuciones de Linux pueden usarse en una PS4 si tienes o creas los drivers, ya que solo tenemos los drivers de arch, tendrás que usar una distribución basada en arch para ahorrarte esta parte. Te recomiendo Manjaro pero puedes intentarlo con otros.
 
-#### 2) Installing PS4 drivers Using precompiled drivers.
+#### 2) Instalando los drivers de PS4 usando drivers precompilados.
 
-After installing the OS on a vm (or a real PC/Laptop) you need to add the PS4Xploit repo.
+Tras instalar el SO en una mv (máquina virtual) o en un PC/Portátil, tendrás que añadir el repositorio de PS4Xploit.
 
 ```sudo echo -e "\n[ps4xploit-repo-arch]\nSigLevel = Optional TrustAll\nServer = https://PS4Xploit.zd.lu/Linux/Repo/x86_64" >> /etc/pacman.conf```
 
-Then update the repos.
+Tras esto, actualiza los repositorios.
 
 ```sudo pacman -Syyu```
 
-And install the drivers.
+E instala los drivers.
 
 ```sudo pacman -Syy mesa-ps4 lib32-libdrm-ps4 lib32-mesa-ps4 libdrm-ps4 xf86-video-amdgpu-ps4```
 
-(if you want to compile the driver locally take a look [here](https://github.com/Hakkuraifu/PS4Linux-ArchDrivers#how-i-install-the-drivers-), it's also recommended to use "Auto-Login")
+(Si quieres compilar cada driver de forma local mira [esto](https://github.com/Hakkuraifu/PS4Linux-ArchDrivers#how-i-install-the-drivers-), también es recomendable usar "Iniciar sesión automáticamente")
 
-#### 3) Backup the OS.
+#### 3) Haz una copia de seguridad de tu SO.
 
-After installing the drivers and customized the OS like you want you can now backup the OS to be able to install it on the PS4.
+Tras instalar los drivers y personalizar el SO como a ti te guste, puedes hacer una copia de seguridad del SO que vas a instalar en tu PS4.
 
-First it's recommended to go to the root folder.
+Primero ve a la carpeta raíz.
 
 ```cd /```
 
-Now you can backup the OS (you maybe have to change the command depending of the OS you use).
+Ahora ya puedes hacer una copia de seguridad de tu SO (el comando cambiará dependiendo del SO que uses).
 
-(Reaplce 'DistroName' by the name of you'r distro).
+(Reemplaza 'Nombre_Distro' por el nombre de tu distribución).
 
-```sudo tar -cvf DistroName.tar.xz --exclude=/DistroName.tar.xz --exclude=/var/cache --one-file-system / -I "xz -9"```
+```sudo tar -cvf Nombre_Distro.tar.xz --exclude=/Nombre_Distro.tar.xz --exclude=/var/cache --one-file-system / -I "xz -9"```
 
- MAX SIZE <=3.2GB.
-
-
-#### 4) Installing the OS.
-
-⚠️ USE A >=16GB USB 3.0 DEVICE !!!!!!!!!!!!!!!!!!!!!! ⚠️
-
-- Format the USB 3.0 Device to fat32 (you can use [this software](http://ridgecrop.co.uk/index.htm?guiformat.htm)).
-
-- Put the bzimage, the initramfs.cpio.gz and the OS in the root of the USB 3.0 Device.
-
-- Rename the OS to 'psxitarch.tar.xz' (if you use the initramfs.cpio.gz from Nazky rename the os to arch.tar.xz).
-
-- Launch the 1GB Linux payload using one of the trusted host in the list below.
-
-- When rescushell start run ```exec install-psxitarch.sh``` (if you use the initramfs.cpio.gz from Nazky run ```exec install-arch.sh```) and wait.
-
-- When the installation is done the OS is going to boot automaticlly, if the OS not boot run ```exec start-psxitarch.sh``` (if you use the initramfs.cpio.gz from Nazky run ```exec start-arch.sh```) and wait (you need to run```exec start-arch.sh``` twice everytime you reboot the OS).
-
-#### Optional - Installing the OS on the HDD.
-
-⚠️ USE A COMPATIBLE PS4 !!!!!!!!!!!!!!!!!!!!!! ⚠️
-
-- Use a FTP Client and transfert the bzimage, the initramfs.cpio.gz from Nazky and the OS to /usr/system/boot.
-- Run any Linux GB using one of the trusted host in the list below. 
-- When rescushell start run ```exec install-HDD.sh``` and set how many GB you want to give to linux.
-- Wait..
-- When the installation is done the os is going to boot automaticlly, if the OS not boot press **CTRL + D** or run ```exec start-arch.sh```.
-
-#### Optional - Unistalling.
-
-To unistalling a OS install on a USB Device just format the USB Device.
-
-#### Optional - Unistalling the OS on the HDD.
-To unistalling a OS install on the HDD just delete the **Arch.img** file in /usr/home.
-
-## Trust host to use.
-
-This list can change in the futur.
-
-- http://ps4xploit.zd.lu | by [Nazky](https://twitter.com/NazkyYT)
-- http://kmeps4.site | By [Kameleon](https://twitter.com/KameleonRe)
-- http://xperiments.in/xhost/ | by [xps3riments](https://twitter.com/xps3riments)
-- http://karo218.ir | By [Karo](https://twitter.com/karo_sharifi)
+ TAMAÑO MÁXIMO <=3.2GB.
 
 
-## Little F.A.Q
+#### 4) Instalando el SO.
 
-### I have a black screen 
-It's a 'bug' in the 5.x kernel you need to refresh the HDMI the most easy way it's to wait until you get no signal then moved the mouse or pressed a key on the keyboard.
+⚠️ ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡USA UN DISPOSITIVO DE 16GB o más y USB 3.0!!!!!!!!!!!!!!!!!!!!!! ⚠️
 
-### I still have a black screen even with the kernel 4.14
-Make sure you'r display is compatible with the 1080p resolution, if you still have a black screen try a others monitor.
+- Formateta el USB en fat32 (puedes usar [este software](http://ridgecrop.co.uk/index.htm?guiformat.htm)).
 
-### I don't have WIFI or BT
-This can be caused by the kernel or the distro, not real fix here use a wifi or/and a bt dongle.
+- Pon los archivos bzimage, initramfs.cpio.gz y el SO en la raíz de tu USB.
 
-### Some apps not launch why ?
-FlatPak apps seems to have some problems with the ps4, and Snaps apps is not working, not real fix here use AUR.
+- Renombra el SO por 'psxitarch.tar.xz' (si usas el initramfs.cpio.gz de Nazky renombra el SO a arch.tar.xz).
 
-### I can't use my controller as a mouse why ?
-Some distro don't have ds4drv preinstall (Cutefish for the exemple here) use the store (pamac) to install ds4drv (it's recommend to install the motion control one) then open a terminal, connect you'r ds4 in usb and run  ```ds4drv --hidraw ```.
+- Lanza el payload de 1GB de Linux (los otros fallan más o son necesarios si usas algún emulador) usando algún enlace de los de abajo.
+
+- Cuando rescushell arranque, lanza ```exec install-psxitarch.sh``` (si usas el initramfs.cpio.gz de Nazky lanza ```exec install-arch.sh```) y espera.
+
+- Cuando acabe la instalación, el SO arrancará automáticamente, si el SO no arranca, lanza  ```exec start-psxitarch.sh``` (si usas el initramfs.cpio.gz de Nazky lanza ```exec start-arch.sh```) y espera (tendrás que lanzar ```exec start-arch.sh``` dos veces cada vez que inicies/reinicies el SO).
+
+#### Opcional - Instalando el SO en el disco duro interno.
+
+⚠️ ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡Usa una PS4 compatible!!!!!!!!!!!!!!!!!!!!!! ⚠️
+
+- Usa un cliente FTP y transfiere los archivos bzimage, el initramfs.cpio.gz de Nazky y el SO a /usr/system/boot.
+- Lanza cualquier Linux GB usando alguno de los enlaces de abajo. 
+- Cuando rescushell arranque, lanza ```exec install-HDD.sh``` y pon la cantidad de GB del disco duro que quieres dedicarle de tu disco duro.
+- Espera...
+- Cuando acabe la instalación, el SO arrancará automáticamente, si el SO no arranca, pulsa **CTRL + D** o lanza ```exec start-arch.sh```.
+
+#### Opcional - Desinstalación.
+
+Para desinstalar un SO de un dispositivo USB simplemente formatea el dispositivo USB.
+
+#### Opcional - Desinstalar el SO del disco duro interno.
+Para desinstalar un SO de un disco duro interno, borra el fichero **Arch.img** de /usr/home.
+
+## Enlaces fiables.
+
+Esta lista puede cambiar en el futuro.
+
+- http://ps4xploit.zd.lu | Creado por [Nazky](https://twitter.com/NazkyYT)
+- http://kmeps4.site | Creado por [Kameleon](https://twitter.com/KameleonRe)
+- http://xperiments.in/xhost/ | Creado por [xps3riments](https://twitter.com/xps3riments)
+- http://karo218.ir | Creado por [Karo](https://twitter.com/karo_sharifi)
+
+
+## Pequeño P&R
+
+### Solo aparece un pantallazo negro
+Es un 'fallo' en el kernel 5.x tienes que refrescar tu HDMI, lo más fácil es esperar hasta que no recibas señal y luego mover el ratón o pulsar una tecla del teclado.
+
+### Sigo teniendo el pantallazo negro aunque uso el kernel 4.14
+Asegúrate que tu dispositivo es compatible con la resolución a 1080p, si sigues teniendo un pantallazo negro prueba con otros monitores.
+
+### No tengo WIFI o Bluetooth
+Esto es causado por el kernel o por la distribución, la única forma de arreglarlo es programando ese driver o usando un USB externo de wifi o de bluetooth.
+
+### ¿Por qué algunas aplicaciones no funcionan?
+Las aplicaciones FlatPak suelen fallar en PS4, y las aplicaciones Snaps directamente no funcionan, no hay forma de arreglarlo, usa AUR o instalación de otros paquetes.
+
+### ¿Por quéo puedo usar mi controlador como ratón?
+Algunas distribuciones no tienen preinstalado el driver ds4drv (Cutefish OS, por ejemplo) usa la tienda (pamac) para instalar ds4drv (es recomendable instalar el controlador de movimiento) tras instalarlo, abre una terminal, conecta tu DS4 por USB y lanza ```ds4drv --hidraw ```.
